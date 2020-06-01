@@ -3,7 +3,7 @@ const resourcesRouter = require('./route/resource-router');
 const projectRouter = require('./route/projects-router');
 const tasksRouter = require('./route/tasks-router');
 
-// const db = require('./data/db-config');
+const db = require('./data/db-config');
 
 const server = express();
 server.use(express.json());
